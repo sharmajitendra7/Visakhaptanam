@@ -1,0 +1,1001 @@
+body {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700px;
+  background: #000;
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1280px;
+  margin: auto;
+}
+/* header-start */
+.header-top {
+  background: #1a1a1a;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.media-icon ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.fa-brands {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #fff;
+}
+.fa-brands:hover {
+  color: #2ede4c;
+}
+.fa-solid {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.menu-bar ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.menu-bar li a {
+  /* margin-left: 40px; */
+  border-right: solid 1px #666666;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-weight: 600;
+}
+.menu-bar li:last-child a {
+  border-right: 0 !important;
+}
+.menu-bar li a:hover {
+  color: #2ede4c;
+}
+.icon ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.icon li a {
+  color: #fff;
+}
+/* header-end */
+/* Menu Dropdown Start*/
+
+.menu-bar li > ul {
+  position: absolute;
+  left: 31%;
+  top: 58px;
+  width: 200px;
+  display: none;
+  z-index: 999;
+  /* box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%), 0 -18px 60px -10px rgb(0 0 0 / 3%); */
+}
+.menu-bar > ul > li > ul > li {
+  font-size: 14px;
+  color: #232323;
+  width: 400;
+  background: #fff;
+  border-bottom: 1px solid #e9e9e9;
+}
+.menu-bar > ul > li > ul > li:last-child {
+  border-bottom: 0;
+}
+.menu-bar > ul > li > ul > li a {
+  padding: 12px 15px;
+  color: #232323;
+  display: block;
+}
+.menu-bar > ul > li > ul > li > a:hover {
+  background: #2ede4c;
+  color: #fff;
+}
+.menu-bar > ul > li:hover > ul {
+  display: block;
+}
+/* Menu Dropdown End*/
+/* slider-start */
+.slider {
+  position: relative;
+}
+.slider img {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+}
+.slider-text {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.slider-text h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  color: #fff;
+}
+.slider-text h6 {
+  font-size: 20pxpx;
+  line-height: 28px;
+  margin: 10px 0 40px 0;
+  color: #fff;
+}
+.slider-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.slider-btn {
+  background: #2ede4c;
+  padding: 18px 20px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.slider-btn:hover {
+  background: #000;
+  transition: all 0.5s ease;
+}
+/* slider-end */
+/* EXCLUSIVE SERVICE-START */
+.exclusive-service h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.exclusive-service h3 {
+  font-size: 26px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.exclusive-service h3 {
+  font-size: 26px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.exclusive-service p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+.exclusive-service h5 {
+  font-size: 26px;
+  line-height: 36px;
+  color: #2ede4c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.multiple-items img {
+  width: 60%;
+}
+.multiple-items ul {
+  display: flex;
+  align-items: center;
+}
+/* EXCLUSIVE SERVICE-END */
+/* video-start */
+.video-text h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+.video-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.video-contant {
+  background: #2ede4c;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.video-text1 {
+  margin-left: 20px;
+}
+.video-text1 h3 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #fff;
+}
+.video-text1 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin: 10px 0 30px -130px;
+}
+.click-btn {
+  background: #000;
+  padding: 18px 20px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 8px;
+}
+/* video-end */
+/* Gallery-start */
+.gallery h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+.gallery-contant ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-contant > ul > li {
+  background: #1b1b1b;
+  width: 250px;
+  margin: 20px;
+}
+.gallery-contant img {
+  width: 100%;
+  display: block;
+}
+.photo-contant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.rating > ul {
+  display: flex;
+  align-items: center;
+}
+.photo-contant h6 {
+  color: #fff;
+  margin-bottom: 0;
+}
+.rating li .fa-sharp {
+  font-size: 12px;
+  margin-left: 5px;
+}
+/* Gallery-end */
+/* ESCORT-SERVICE-START */
+.escort-service h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+.escort-service p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.escort-service-contant {
+  display: flex;
+}
+.escort-service-text h6 {
+  font-size: 20px;
+  color: #2ede4c;
+}
+.escort-service-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.mobile img {
+  margin: 0 30px 0 20px;
+  height: 600px;
+}
+/* ESCORT-SERVICE-END */
+/* ESCORT-SERVICE-START1 */
+.escort-service1 h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin: 100px 0 30px 0;
+}
+.escort-service-contant1 {
+  display: flex;
+}
+.escort-service-text1 h4 {
+  font-size: 24px;
+  line-height: 38px;
+  color: #2ede4c;
+  margin: 0 0 20px 40px;
+}
+.escort-service-text1 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  margin: 0 0 40px 40px;
+}
+/* ESCORT-SERVICE-END1 */
+/* ESCORT-SERVICE-START2 */
+.escort-service2 h2 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #2ede4c;
+  text-align: center;
+  margin: 100px 0 30px 0;
+}
+.escort-service-contant2 {
+  display: flex;
+}
+.escort-service-text2 h4 {
+  font-size: 24px;
+  line-height: 38px;
+  color: #2ede4c;
+  margin: 0 20px 20px 0;
+}
+.escort-service-text2 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  margin: 0 20px 40px 0;
+}
+/* ESCORT-SERVICE-END2 */
+/* footer-start */
+footer {
+  background: #1a1a1a;
+  width: 100%;
+  padding: 40px 0;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  padding-left: 0;
+}
+.links h4 {
+  font-size: 22px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+}
+.links a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+}
+.links a:hover {
+  color: #2ede4c;
+}
+.footer-border {
+  border-top: 1px solid #666666;
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px 0;
+}
+.copyright p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+.logo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+/* footer-end */
+/* about-us-start */
+.about-us {
+  display: flex;
+  margin-bottom: 80px;
+}
+.about-us-images img {
+  width: 400px;
+  height: 500px;
+}
+.about-us-text h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin: 0 0 10px 30px;
+}
+.about-us-text p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-left: 30px;
+}
+.about-us-text1 h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin: 0 30px 10px 0;
+}
+.about-us-text1 p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 30px;
+}
+/* about-us-end */
+/* gallary-start */
+.gallary h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.gallary p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.gallary-images ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallary-images img {
+  width: 300px;
+  border-radius: 10px;
+}
+.gallary-images li {
+  border-bottom: solid 4px #2ede4c;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+/* gallary-end */
+/* rates-start */
+.rates-table h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rates h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rates p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.fees-bg {
+  background: #fff;
+  color: #000;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  /* box-shadow: 0 0px 12px rgb(0 0 0 / 40%); */
+  padding-left: 33%;
+}
+table,
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* rates-end */
+/* callgirls-start */
+.callgirls h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.callgirls p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.wraper {
+  display: flex;
+  margin: 50px 0;
+}
+.right-pannel h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.right-pannel p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 30px;
+}
+.wraper1 {
+  display: flex;
+  margin: 50px 0;
+}
+.right-pannel1 h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.right-pannel1 p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 30px;
+}
+/* callgirls-end */
+/* blog-start */
+.blog {
+  text-align: center;
+}
+.blog h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  /* margin-bottom: 20px; */
+}
+.blog img {
+  margin: 50px 0;
+}
+/* blog-end */
+/* contact-us-start */
+.contact-us h3 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contact-us p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-us-contant{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.card1 {
+  width: 79%;
+  border: 1px solid rgb(9 184 62);
+  border-radius: 0.25rem;
+  margin-bottom: 40px;
+}
+.card-header {
+  background: #2ede4c;
+  padding: 20px;
+}
+.form-control {
+  margin: 5px 0 20px 0;
+}
+.submit-btn {
+  background: #2ede4c;
+  padding: 18px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 15px;
+}
+.contact-us-box {
+  padding: 20px;
+}
+.card2 {
+  width: 29%;
+  border: 1px solid rgb(9 184 62);
+  border-radius: 0.25rem;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.card2-text{
+  padding: 20px;
+}
+.card2-text h6{
+  color: #2ede4c;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.card2-text p{
+  font-size: 18px;
+  text-align: left;
+}
+/* contact-us-end */
+
+/* profile-start */
+.profile-bg{
+  background: #262626;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.profile-bg img{
+ margin-bottom: 20px;
+ border-radius: 5px;
+}
+.profile-bg h3{
+  font-size: 30px;
+  line-height: 40px;
+  color: #2ede4c;
+  margin-bottom: 30px;
+  text-align: center; 
+}
+.profile-text h6{
+  font-size: 18px;
+  /* text-align: left; */
+  color: #2ede4c;
+  border-bottom: solid 1px #2ede4c;
+  width: 40%;
+  padding: 20px 0;
+}
+.Availability{
+  display: flex;
+  align-items: center;
+}
+.bility p{
+margin-left: 60px;
+}
+.slide-profile img {
+  width: 80%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border-bottom: solid 4px #2ede4c;
+}
+.slide-profile ul {
+  display: flex;
+  align-items: center;
+}
+.mobiale-header{
+  display: none;
+}
+.close{
+  display: none;
+ }
+ .modal-mobile{
+  display: none;
+ }
+ .overlay-mobile{
+   display: none;
+ }
+/* profile-end */
+.profile-mobile{
+  display: none;
+}
+.slick-slide img{
+  border-bottom:  solid 4px #2ede4c;
+  border-radius: 9px;
+}
+
+/* mobile-responcive */
+@media screen and (max-width: 767px){
+  .container{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .close{
+    display: block;
+  }
+  .close{
+    font-size: 30px;
+    margin: 10px 0 0 90%;
+  }
+  .modal-mobile{
+    display: block;
+  }
+  .modal-mobile{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 80%;
+    height: 65%;
+    z-index: 99999;
+  }
+  .mobile-menubar li{
+    margin: 40px 0 30px 20px;
+    color: #fff;
+  }
+  .mobile-menubar li a{
+    color: #fff;
+  }
+  .mobile-menubar li a:hover{
+    color: #2ede4c;
+  }
+  .overlay {
+    display: block;
+  }
+  .overlay-mobile{
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+  }
+  .header{
+    display: none;
+  }
+  .mobiale-header{
+    display: block;
+  }
+  .mobiale-header{
+    background: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-icon img{
+    width: 40px;
+  }
+  .slider img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.slider-text h1 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 0 20px -94px;
+}
+.slider-text p{
+  display: none;
+}
+.slider-text h6{
+  display: none;
+}
+.exclusive-service{
+  display: none;
+}
+.video-text h2 {
+  font-size: 26px;
+  line-height: 36px;;
+  margin: 20px 0 20px 0;
+}
+.video-text p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.gallery h2 {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 0px 0 20px 0;
+}
+.gallery h2 {
+  font-size: 26px;
+  line-height: 36px;
+  /* margin: 0px 0 0px 0; */
+}
+.gallery-contant > ul > li {
+  background: #1b1b1b;
+  width: 165px;
+  margin: 5px;
+}
+.escort-service h2 {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 50px 0 15px 0;
+}
+.escort-service p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.escort-service-contant {
+  flex-direction: column;
+}
+.escort-service1 h2 {
+  font-size: 26px;
+  line-height: 36px;
+  margin: 50px 0 20px 0;
+}
+.escort-service-contant1 {
+  flex-direction: column;
+}
+.gallery-contant ul {
+  align-items: inherit;
+}
+.escort-service-text1 h4 {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 0 10px -6px;
+  text-align: center;
+}
+.escort-service-text1 p {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 0 16px 8px;
+  text-align: center;
+}
+.escort-service2 h2 {
+  font-size: 26px;
+  line-height: 40px;
+  margin: 50px 0 20px 0;
+}
+.escort-service-contant2 {
+  flex-direction: column-reverse;
+}
+.escort-service-text2 h4 {
+  font-size: 22px;
+  line-height: 30px;  
+  text-align: center;
+}
+.escort-service-text2 p {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 0px 20px 0;
+}
+.footer-text {
+  flex-direction: column;
+}
+.about-us {
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.about-us-images img {
+  width: 350px;
+  height: 450px;
+}
+.about-us-text h3 {
+  font-size: 26px;
+  line-height: 32px;
+  margin: 10px 0 0 0;
+}
+.about-us-text p {
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin: 10px 0 0 0;
+}
+.about-us-text1 h3{
+  font-size: 26px;
+  line-height: 32px;
+  margin: 10px 0 0 0;
+}
+.about-us-text1 p{
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  margin: 10px 0 10px 0;
+}
+.fees-bg {
+padding-left: 2%;
+}
+.gallary h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
+.gallary p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.gallary-images img {
+  width: 350px;
+}
+.rates h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
+.rates p{
+  font-size: 12px;
+  line-height: 20px; 
+}
+.callgirls h3{
+  font-size: 26px;
+  line-height: 30px; 
+}
+.callgirls p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.wraper{
+  flex-direction: column;
+}
+.left-pannel img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.right-pannel p{
+  margin-left: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.wraper1{
+  flex-direction: column-reverse;
+}
+.left-pannel1 img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.blog img{
+  width: 100%;
+}
+.contact-us-contant{
+  flex-direction: column;
+}
+.card1 {
+  width: 100%;
+}
+.card2 {
+  width: 100%;
+  margin-left: 0;
+}
+.contact-us h3{
+  font-size: 26px;
+  line-height: 30px; 
+}
+.contact-us p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.profile-bg img{
+  width: 49%;
+}
+.slide-profile1{
+  display: none;
+}
+.profile-mobile img{
+  width: 100%;
+  border-radius: 9px;
+  border-bottom: #2ede4c solid 4px;
+}
+.profile-mobile ul li{
+  white-space: normal;
+  display: inline-block;
+  width: 50%;
+  margin-right: 10px;
+}
+.profile-mobile ul{
+  white-space: nowrap;
+  display: block;
+  overflow-x: auto;
+}
+.profile-mobile{
+  display: block;
+}
+}
